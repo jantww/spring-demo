@@ -12,6 +12,6 @@ public class ZhgwApplication {
     ZhgwApplicationContext context = new ZhgwApplicationContext(AppConfig.class);
     UserService userService = (UserService) context.getBean("userService");
     userService.test();
-    userService.dumplateTransaction();
+    userService.duplicateTransaction();
   }
 }

@@ -25,7 +25,7 @@ public class UserService implements BeanNameAware, ApplicationContextAware {
     }
 
     @Transactional
-    public void dumplateTransaction() {
+    public void duplicateTransaction() {
         System.out.println("dumplateTransaction!");
     }
 
